@@ -1,0 +1,311 @@
+.tabsClass {
+  height: 100px !important;
+}
+.m-title {
+  font-size: 20px;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+}
+.m-score {
+  font-size: 18px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.m-up {
+  font-size: 18px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #ff1133;
+  margin-left: 30px;
+}
+.m-analysisTitle {
+  display: flex;
+  justify-content: space-between;
+}
+.m-analysisTitle .scoreAnaly {
+  font-size: 20px;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+}
+.m-analysisBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 10px 70px 10px 10px;
+}
+.m-content {
+  flex: 1;
+  padding-left: 60px;
+  font-size: 15px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  line-height: 30px;
+}
+.m-head {
+  width: 100%;
+  height: 41px;
+  background: url('../../images/titleBg.png') no-repeat;
+  background-size: cover;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.m-head .m-headL {
+  height: inherit;
+  display: flex;
+  align-items: center;
+}
+.m-head .m-headL img {
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
+.m-head .m-headL .headItem {
+  font-size: 20px;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+}
+.m-head .m-headR {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.m-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 10px;
+  border-bottom: 2px solid #f0f0f0;
+}
+.m-section .m-sectionL {
+  width: 620px;
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+}
+.m-section .m-sectionL .m-secL-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 18px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  padding: 0 16px 0 20px;
+  box-sizing: border-box;
+  height: 28px;
+}
+.m-section .m-sectionL .m-secL-bottom {
+  padding-top: 30px;
+  height: 180px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+.m-section .m-sectionL .m-secL-bottom .gradechang {
+  position: relative;
+  width: 550px;
+  height: 23px;
+  background: linear-gradient(90deg, #fed100, #37be33, #fed100, #ff726a);
+}
+.m-section .m-sectionL .m-secL-bottom .gradechang .line {
+  position: absolute;
+  top: -8px;
+  width: 2px;
+  height: 39px;
+  background: #aec914;
+}
+.m-section .m-sectionL .m-secL-bottom .gradechang .line1 {
+  left: 109px;
+}
+.m-section .m-sectionL .m-secL-bottom .gradechang .line2 {
+  left: 274px;
+  background: #39BE33;
+}
+.m-section .m-sectionL .m-secL-bottom .gradechang .line3 {
+  right: 109px;
+  background: #FFBE13;
+}
+.m-section .m-sectionL .m-secL-bottom .gradechang .scoreLocation {
+  width: 16px;
+  height: 22px;
+  position: absolute;
+  top: -23px;
+  left: 50%;
+}
+.m-section .m-sectionL .m-secL-bottom .gradechang .level {
+  font-size: 18px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  position: absolute;
+  top: -54px;
+}
+.m-section .m-sectionL .m-secL-bottom .gradechang .level1 {
+  width: 110px;
+  text-align: center;
+}
+.m-section .m-sectionL .m-secL-bottom .gradechang .level2 {
+  left: 109px;
+  width: 165px;
+  text-align: center;
+}
+.m-section .m-sectionL .m-secL-bottom .gradechang .level3 {
+  left: 275px;
+  width: 165px;
+  text-align: center;
+}
+.m-section .m-sectionL .m-secL-bottom .gradechang .level4 {
+  right: 0px;
+  width: 110px;
+  text-align: center;
+}
+.m-section .m-sectionL .m-secL-bottom .gradechang .text {
+  font-size: 18px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  position: absolute;
+  bottom: -36px;
+}
+.m-section .m-sectionL .m-secL-bottom .gradechang .text1 {
+  left: 94px;
+}
+.m-section .m-sectionL .m-secL-bottom .gradechang .text2 {
+  left: 263px;
+}
+.m-section .m-sectionL .m-secL-bottom .gradechang .text3 {
+  right: 94px;
+}
+.m-section .m-sectionL .m-secL-bottom .gradechang1 {
+  width: 550px;
+  height: 23px;
+  background: linear-gradient(90deg, #e53833, #fea700, #fed100, #37be33);
+  position: relative;
+}
+.m-section .m-sectionL .m-secL-bottom .gradechang1 .line {
+  position: absolute;
+  top: -8px;
+  width: 2px;
+  height: 39px;
+  background: #FC9E03;
+}
+.m-section .m-sectionL .m-secL-bottom .gradechang1 .line1 {
+  left: 109px;
+}
+.m-section .m-sectionL .m-secL-bottom .gradechang1 .line2 {
+  left: 219px;
+  background: #FEC800;
+}
+.m-section .m-sectionL .m-secL-bottom .gradechang1 .line3 {
+  right: 219px;
+  background: #DDD108;
+}
+.m-section .m-sectionL .m-secL-bottom .gradechang1 .line4 {
+  right: 109px;
+  background: #46C02F;
+}
+.m-section .m-sectionL .m-secL-bottom .gradechang1 .scoreLocation {
+  width: 16px;
+  height: 22px;
+  position: absolute;
+  top: -23px;
+  left: 50%;
+}
+.m-section .m-sectionL .m-secL-bottom .gradechang1 .level {
+  font-size: 18px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  position: absolute;
+  top: -54px;
+  text-align: center;
+  width: 110px;
+}
+.m-section .m-sectionL .m-secL-bottom .gradechang1 .level1 {
+  left: 0px;
+}
+.m-section .m-sectionL .m-secL-bottom .gradechang1 .level2 {
+  left: 111px;
+}
+.m-section .m-sectionL .m-secL-bottom .gradechang1 .level3 {
+  left: 221px;
+}
+.m-section .m-sectionL .m-secL-bottom .gradechang1 .level4 {
+  right: 111px;
+}
+.m-section .m-sectionL .m-secL-bottom .gradechang1 .level5 {
+  right: 0px;
+}
+.m-section .m-sectionL .m-secL-bottom .gradechang1 .text {
+  font-size: 18px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  position: absolute;
+  bottom: -36px;
+}
+.m-section .m-sectionL .m-secL-bottom .gradechang1 .text1 {
+  left: 94px;
+}
+.m-section .m-sectionL .m-secL-bottom .gradechang1 .text2 {
+  left: 204px;
+}
+.m-section .m-sectionL .m-secL-bottom .gradechang1 .text3 {
+  right: 204px;
+}
+.m-section .m-sectionL .m-secL-bottom .gradechang1 .text4 {
+  right: 96px;
+}
+.m-section .m-sectionL .m-sectionL-top,
+.m-section .m-sectionL .m-sectionL-bottom {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.m-section .m-sectionL .m-sectionL-top {
+  margin-bottom: 30px;
+}
+.m-section .m-sectionR {
+  box-sizing: border-box;
+  min-height: 245px;
+  flex: 1;
+  background: #f8f8f9;
+  padding: 20px 20px 20px 10px;
+}
+.m-section .m-sectionR .m-secRAside {
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+}
+.m-section .m-sectionR .m-secRAside img {
+  width: 13px;
+  height: 13px;
+  margin-right: 10px;
+}
+.m-section .m-sectionR .m-secRAside span {
+  font-size: 18px;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+}
+.m-section .m-sectionR .analysisContent {
+  padding-left: 26px;
+  font-size: 15px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  line-height: 23px;
+  padding-bottom: 15px;
+}
